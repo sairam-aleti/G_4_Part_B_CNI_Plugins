@@ -1,0 +1,18 @@
+# Binary files (root only)
+/cilium
+/scripts/cilium
+
+# Lock files and process IDs
+run_all.pid
+*.lock
+
+# Temporary files (keep logs if they are part of results)
+tmp/
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+bin/
+models/
